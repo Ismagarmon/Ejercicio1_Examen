@@ -1,66 +1,84 @@
 
-/*Estilo para los bloques de header*/
+#div_11{
+    width: 1200px;
+    height: 130px;
+}
 
 #div_1{
-    width:250px;
-    height: 350px;
+    width: 170px;
+    height: 90px;
+    border: 2px solid black;
     float: left;
-    border: 1px solid black;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-style: double;
 }
 
 #div_2{
-    width:250px;
-    height: 350px;
+    width: 170px;
+    height: 90px;
+    border: 2px solid black;
     float: left;
-    border: 1px solid black;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-style: double;
 }
 
 #div_3{
-    width:250px;
-    height: 350px;
+    width: 170px;
+    height: 90px;
+    border: 2px solid black;
     float: left;
-    border: 1px solid black;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-style: double;
 }
 
 #div_4{
-    width:250px;
-    height: 350px;
+    width: 170px;
+    height: 90px;
+    border: 2px solid black;
     float: left;
-    border: 1px solid black;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-style: double;
 }
 
 #div_5{
-    width:250px;
-    height: 350px;
+    width: 170px;
+    height: 90px;
+    border: 2px solid black;
     float: left;
-    border: 1px solid black;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-style: double;
 }
 
 /*Estilo para los párrafos de dentro de lso bloques*/
 
 @font-face{
    font-family: "titulo_1";
-   src: url(/Fuentes/GardenGrownUS-CCaps.woff2);
+   src: url(../Fuentes/GardenGrownUS-CCaps.woff2);
 }
 
 @font-face{
     font-family: "titulo_2";
-    src: url(/Fuentes/just_another_hand.woff);
+    src: url(../Fuentes/just_another_hand.woff);
 }
 
 @font-face{
     font-family: "titulo_3";
-    src: url(/Fuentes/lobster.woff);
+    src: url(../Fuentes/lobster.woff);
 }
 
 @font-face{
     font-family: "titulo_4";
-    src: url(/Fuentes/ribeye_marrow.woff);
+    src: url(../Fuentes/ribeye_marrow.woff);
 }
 
 @font-face{
     font-family: "titulo_5";
-    src: url();
+    src: url(../Fuentes/BebasNeue-Regular.woff2);
 }
 
 #p_1{
@@ -86,4 +104,47 @@
 #p_5{
     font-size: 20px;
     font-family: "titulo_5";
+}
+
+/*Estilo para el aside de la izquierda*/
+
+#div_6{
+   width:140px;
+   height:200px;
+   float: left;
+}
+
+/*Estilo para el bloque de la derecha*/
+
+#div_7{
+   width: 1060px;
+   height: 1000px;
+   margin-left: 110px;
+}
+
+/*Estilo para los bloques de dentro de section*/
+
+#div_8{
+    width: 1059px;
+    height: 300px;
+}
+
+#div_9{
+    width: 1059px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+#div_10{
+    width: 1059px;
+    height: 300px;
+}
+
+/*Estilo de la imagen del bloque de sectio*/
+
+#imagen_1{
+    float: left;
+    margin-right: 5px;
+    border: 1px solid black;
 }
