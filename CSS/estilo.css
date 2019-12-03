@@ -1,0 +1,89 @@
+
+/*Estilo para los bloques de header*/
+
+#div_1{
+    width:250px;
+    height: 350px;
+    float: left;
+    border: 1px solid black;
+}
+
+#div_2{
+    width:250px;
+    height: 350px;
+    float: left;
+    border: 1px solid black;
+}
+
+#div_3{
+    width:250px;
+    height: 350px;
+    float: left;
+    border: 1px solid black;
+}
+
+#div_4{
+    width:250px;
+    height: 350px;
+    float: left;
+    border: 1px solid black;
+}
+
+#div_5{
+    width:250px;
+    height: 350px;
+    float: left;
+    border: 1px solid black;
+}
+
+/*Estilo para los párrafos de dentro de lso bloques*/
+
+@font-face{
+   font-family: "titulo_1";
+   src: url(/Fuentes/GardenGrownUS-CCaps.woff2);
+}
+
+@font-face{
+    font-family: "titulo_2";
+    src: url(/Fuentes/just_another_hand.woff);
+}
+
+@font-face{
+    font-family: "titulo_3";
+    src: url(/Fuentes/lobster.woff);
+}
+
+@font-face{
+    font-family: "titulo_4";
+    src: url(/Fuentes/ribeye_marrow.woff);
+}
+
+@font-face{
+    font-family: "titulo_5";
+    src: url();
+}
+
+#p_1{
+   font-size: 20px;
+   font-family: "titulo_1";
+}
+
+#p_2{
+    font-size: 20px;
+    font-family: "titulo_2";
+}
+
+#p_3{
+    font-size: 20px;
+    font-family: "titulo_3";
+}
+
+#p_4{
+    font-size: 20px;
+    font-family: "titulo_4";
+}
+
+#p_5{
+    font-size: 20px;
+    font-family: "titulo_5";
+}
